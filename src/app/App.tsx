@@ -1123,7 +1123,7 @@ function VoiceMessageBubble({ audioSrc, isUser }: { audioSrc?: string; isUser?: 
 type UploadState = 'idle' | 'verifying' | 'success';
 
 function PaymentModal({ onClose, paymentType }: { onClose: () => void; paymentType: 'full' | 'demo' }) {
-  const UPI_ID        = 'BHARATPE2E0K0C1V8V70341@unitype';
+  const UPI_ID        = 'BHARATPE2R0S0C1D6V46619@unitype';
   const AMOUNT        = '999';
   const ORIGINAL_AMT  = '1999';
   const WHATSAPP_LINK = 'https://t.me/+WpYQG75aIhswMDRl';
